@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="portfolio-logo.png" type="image/png">
+    <title>Asim's Portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Muhammed Asim Meto</a>
+        <div class="menu-icon">
+            <i class="fas fa-bars"></i>
+        </div> 
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="https://asimmeto.github.io/AI-Image-Generator/" target="_blank">AI Image Generator</a>
+        </nav>       
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="abstract-computer.jpg" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, it's <span>Asim</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>As an aspiring software engineering student, I aim to change the world for the better through the power of technology. You can find some of the projects I've worked on, along with my CV and contact information, on this page.</p>
+            <div class="social-icons">
+                <a href="https://linkedin.com/in/metoasim" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/asimmeto" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
+            </div>
+            <a href="Asim's CV.pdf" target="_blank" class="btn">Hire Me (My CV)</a>
+        </div>
+    </section>
+    <script>
+        const menuIcon = document.querySelector('.menu-icon');
+        const nav = document.querySelector('header nav');
+    
+        menuIcon.addEventListener('click', () => {
+            nav.classList.toggle('show');
+        });
+    </script>    
+</body>
+</html>
